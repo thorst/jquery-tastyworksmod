@@ -16,7 +16,7 @@ To use:
 
 You can see the very simple code by looking at the code.js file in the repo. If you want to remove pieces of my code simply edit the file and turn it into a bookmarklet yourself using the following website.
 
-https://mrcoles.com/bookmarklet/
+[https://mrcoles.com/bookmarklet/](https://mrcoles.com/bookmarklet/)
 
 Repo:
-https://github.com/thorst/jquery-tastyworksmod
+[https://github.com/thorst/jquery-tastyworksmod](https://github.com/thorst/jquery-tastyworksmod)
