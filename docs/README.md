@@ -1,6 +1,6 @@
 To save either:
 1. Drag the link below to your bookmarks bar
-2. Right-click > Copy Link Address
+2. Right-click > Copy Link Address, then create a new bookmark, paste the link code in, and save
 
 To use:
 1. Log in to tastyworks
