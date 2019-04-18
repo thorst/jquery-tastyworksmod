@@ -1,1 +1,5 @@
-javascript:(function()%7B%24(".page-sidebar").remove();%24(".dough-wrapper").css(%7Bmargin%3A0%2Cwidth%3A"100%25"%7D);window.dispatchEvent(new Event("resize"));%24("a[href='#/homePage'],a[href='#/followPage'],a[href='#/journalPage'],a[href='#/tastytradePage']").remove();%7D)()
+$(".page-sidebar").remove();                      // Remove sidebar
+$(".dough-wrapper").css({margin:0,width:"100%"}); // Make full width
+window.dispatchEvent(new Event("resize"));        // Trigger window resize event
+// Remove superfluous links
+$("a[href='#/homePage'],a[href='#/followPage'],a[href='#/journalPage'],a[href='#/tastytradePage']").remove();
