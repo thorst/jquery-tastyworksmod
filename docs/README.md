@@ -7,3 +7,6 @@ To use:
 1. Click the bookmarklet
 
 [Tastyworks Mod](javascript:(function()%7B%24(".page-sidebar").remove();%24(".dough-wrapper").css(%7Bmargin%3A0%2Cwidth%3A"100%25"%7D);window.dispatchEvent(new Event("resize"));%24("a[href='#/homePage'],a[href='#/followPage'],a[href='#/journalPage'],a[href='#/tastytradePage']").remove();%7D)())
+
+Repo:
+https://github.com/thorst/jquery-tastyworksmod
