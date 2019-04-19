@@ -1,0 +1,24 @@
+{
+ "content_scripts": [{
+    "js": ["jquery-2.0.3.min.js","bookmarklet.js"],
+    "matches": ["https://trade.tastyworks.com/*"]
+  }],
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "Tastyworks Mod"
+ },
+ "name": "Tastyworks Mod",
+ "description": "Modify Tastyworks for cleaner UI",
+ "homepage_url": "https://github.com/thorst/jquery-tastyworksmod",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
