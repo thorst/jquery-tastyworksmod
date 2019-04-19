@@ -8,7 +8,7 @@ Cleans up the trade.tastyworks.com website using a simple bookmarklet or chrome 
 You can see the very simple code by looking at the code.js file. If you want to remove pieces of my code simply edit the file and turn it into a bookmarklet/extension yourself using the sites in the credits section.
 
 ## Bookmarklet ##
-Visit the page below for the working link that you can right click and copy the code, or even better, drag to your bookmarks bar:
+Requires you to click the bookmarklet to run the code. Visit the page below for the working bookmarklet that you can right click and copy the code, or even better, drag to your bookmarks bar:
 https://thorst.github.io/jquery-tastyworksmod/
 
 ## Chrome Extension ##
