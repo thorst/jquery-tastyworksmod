@@ -23,3 +23,4 @@ Instructions
 ## Credits:## 
 1. https://mrcoles.com/bookmarklet/ - Used to create bookmarklet
 1. https://sandbox.self.li/bookmarklet-to-extension/ - Used to convert (with some slight modification) bookmarklet to chrome extension
+1. https://stackoverflow.com/a/11546242 - Used to continuously sort in chrome extension
