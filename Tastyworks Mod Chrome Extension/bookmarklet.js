@@ -23,9 +23,27 @@ $(function(){
 		}
 	}
 	
+	var on_off_pref = true;
+
+    chrome.storage.onChanged.addListener(function (changes, namespace) {
+        for (key in changes) {
+            var storageChange = changes[key];
+            on_off_pref = storageChange.newValue;
+            /*console.log('Storage key "%s" in namespace "%s" changed. ' +
+                'Old value was "%s", new value is "%s".',
+                key,
+                namespace,
+                storageChange.oldValue,
+                storageChange.newValue);*/
+        }
+    });
+	
 	// I like to have the days gainers on top and the days losers on bottom
 	var observer = new MutationObserver(function(mutations, observer) {
-		$( ".portfolio-page-table-header-cell.portfolio-page-table-cell-day-gain-change-percentage" ).trigger( "click" ).trigger( "click" );
+		 //console.log(on_off_pref);
+		 if (on_off_pref=== 'y') {
+			$( ".portfolio-page-table-header-cell.portfolio-page-table-cell-day-gain-change-percentage" ).trigger( "click" ).trigger( "click" );
+		 }
 	});
 	
 	function myTimer() {
