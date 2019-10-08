@@ -2,6 +2,9 @@
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
 $(function(){
+	// When asterick in total pop and ext dont wrap
+	$("<style type='text/css'> .pop-ext-pill.asterisk{ width:50%;} </style>").appendTo("head");
+	
 	var phase1 = setInterval(correctTab, 1000);
 	var phase2 = setInterval(myTimer, 1000);
 	
