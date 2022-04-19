@@ -3,7 +3,7 @@ MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
 $(function(){
 	// When asterick in total pop and ext dont wrap
-	$("<style type='text/css'> .pop-ext-pill.asterisk{ width:50%;} </style>").appendTo("head");
+	$("<style type='text/css'> .pop-ext-pill.asterisk{ width:50%;} .alerts-list-item {margin:0;padding:0;} .alerts-list-item>.icon-font {font-size:15px;top:0px;} .alerts-list-item>.trigger-info{display:none;}	</style>").appendTo("head");
 	
 	var phase1 = setInterval(correctTab, 1000);
 	var phase2 = setInterval(myTimer, 1000);
@@ -19,7 +19,6 @@ $(function(){
 			window.location = "#/portfolioPage";
 			
 			// Remove the sidebar, make full screen, and remove uneeded buttons
-			$(".page-sidebar").remove();
 			$(".dough-wrapper").css({margin:0,width:"100%"});
 			window.dispatchEvent(new Event("resize"));
 			$("a[href='#/homePage'],a[href='#/followPage'],a[href='#/journalPage'],a[href='#/tastytradePage']").remove();
