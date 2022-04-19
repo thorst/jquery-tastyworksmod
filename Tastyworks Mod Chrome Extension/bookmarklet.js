@@ -18,6 +18,14 @@ $(function(){
 			// Make sure we are on the portfolio tab
 			window.location = "#/portfolioPage";
 			
+			// Order the alerts-list-item
+			var mylist = $('.alerts-list');
+			var listitems = mylist.children('li').get();
+			listitems.sort(function(a, b) {
+			   return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+			})
+			$.each(listitems, function(idx, itm) { mylist.append(itm); })
+			
 			// Remove the sidebar, make full screen, and remove uneeded buttons
 			$(".dough-wrapper").css({margin:0,width:"100%"});
 			window.dispatchEvent(new Event("resize"));
